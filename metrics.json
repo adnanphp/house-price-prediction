@@ -1,0 +1,11 @@
+{
+  "best_model": "GradientBoosting",
+  "best_params": {
+    "learning_rate": 0.1,
+    "max_depth": 7,
+    "n_estimators": 200
+  },
+  "best_score": 0.8353548857639079,
+  "test_rmse": 0.4550464494151378,
+  "test_r2": 0.8419827133638143
+}
