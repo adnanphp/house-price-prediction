@@ -35,3 +35,17 @@ A production-ready machine learning API for predicting house prices using the Ca
 ```bash
 docker pull adnanphp/house-price-api
 docker run -p 8000:8000 adnanphp/house-price-api
+curl https://house-price-prediction-lgwa.onrender.com/
+curl -X POST https://house-price-prediction-lgwa.onrender.com/predict \ https://house-price-prediction-lgwa.onrender.com/predict \
+  -H "Content-Type: application/json" \
+  -d '{
+    "MedInc": 8.3252,
+    "HouseAge": 41.0,
+    "AveRooms": 6.9841,
+    "AveBedrms": 1.0238,
+    "Population": 322.0,
+    "AveOccup": 2.5556,
+    "Latitude": 37.88,
+    "Longitude": -122.23
+  }'
+{"predicted_price":4.509417906267169,"features":{"MedInc":8.3252,"HouseAge":41.0,"AveRooms":6.9841,"AveBedrms":1.0238,"Population":322.0,"AveOccup":2.5556,"Latitude":37.88,"Longitude":-122.2
