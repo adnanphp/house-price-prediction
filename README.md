@@ -4,7 +4,7 @@ A production-ready machine learning API for predicting house prices using the Ca
 
 
 
-**API URL:** https://house-price-api.onrender.com
+**API URL:** [https://house-price-prediction-lgwa.onrender.com]
 
 ##  Features
 
